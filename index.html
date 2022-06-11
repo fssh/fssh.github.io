@@ -12,7 +12,7 @@
 <meta property="og:title" content="Free Share Help">
 <meta property="og:url" content="http://yoursite.com/index.html">
 <meta property="og:site_name" content="Free Share Help">
-<meta property="og:locale" content="cn">
+<meta property="og:locale">
 <meta property="article:author" content="Penrose">
 <meta name="twitter:card" content="summary">
   
@@ -32,7 +32,7 @@
 
   
 
-<meta name="generator" content="Hexo 4.2.0"></head>
+<meta name="generator" content="Hexo 6.2.0"></head>
 
 <body>
   <div id="container" q-class="show:isCtnShow">
@@ -46,7 +46,7 @@
 			<img src="" class="js-avatar">
 		</a>
 		<hgroup>
-		  <h1 class="header-author"><a href="/">Penrose</a></h1>
+		  <h1 class="header-author"><a href="/"></a></h1>
 		</hgroup>
 		
 
@@ -104,7 +104,7 @@
 				<img src="" class="js-avatar">
 			</div>
 			<hgroup>
-			  <h1 class="header-author js-header-author">Penrose</h1>
+			  <h1 class="header-author js-header-author"></h1>
 			</hgroup>
 			
 			
@@ -152,6 +152,243 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-axure与chrome是死对头吗？" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/04/01/axure%E4%B8%8Echrome%E6%98%AF%E6%AD%BB%E5%AF%B9%E5%A4%B4%E5%90%97%EF%BC%9F/">axure与chrome是死对头吗？</a>
+    </h1>
+  
+
+        
+        <a href="/2020/04/01/axure%E4%B8%8Echrome%E6%98%AF%E6%AD%BB%E5%AF%B9%E5%A4%B4%E5%90%97%EF%BC%9F/" class="archive-article-date">
+  	<time datetime="2020-04-01T05:27:12.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-04-01</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <blockquote>
+<p>今天，产品给的axure生成的原型页面用chrome打不开，然后安的chrome扩展也不行，开了扩展的权限也不行，算了，研究下代码暴破吧，把index.html中下面这段注释掉就OK了，赶紧把烦人的扩展卸掉，啦啦啦~~</p>
+</blockquote>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$(<span class="variable language_">window</span>).<span class="title function_">bind</span>(<span class="string">&#x27;load&#x27;</span>, <span class="keyword">function</span>(<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">if</span>(<span class="variable constant_">CHROME_5_LOCAL</span> &amp;&amp; !$(<span class="string">&#x27;body&#x27;</span>).<span class="title function_">attr</span>(<span class="string">&#x27;pluginDetected&#x27;</span>)) &#123;</span><br><span class="line">        <span class="variable language_">window</span>.<span class="property">location</span> = <span class="string">&#x27;resources/chrome/chrome.html&#x27;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">技术吐糟</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2020/04/01/axure%E4%B8%8Echrome%E6%98%AF%E6%AD%BB%E5%AF%B9%E5%A4%B4%E5%90%97%EF%BC%9F/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-HTTP的设计哲学" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/03/19/HTTP%E7%9A%84%E8%AE%BE%E8%AE%A1%E5%93%B2%E5%AD%A6/">HTTP的设计哲学</a>
+    </h1>
+  
+
+        
+        <a href="/2020/03/19/HTTP%E7%9A%84%E8%AE%BE%E8%AE%A1%E5%93%B2%E5%AD%A6/" class="archive-article-date">
+  	<time datetime="2020-03-19T10:42:24.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-03-19</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h2><blockquote>
+<p>今天私底下与同事讨论HTTP的时候，我总结了一下HTTP的设计哲学，感慨良多，归根结底一句话：有多少爱？可以重来！！~(o^^)o</p>
+</blockquote>
+<ol>
+<li>http1的设计理念是这样的，我想要天上的星星，我想要天上的月亮，我想要整个宇宙，喂，叫你呢服务器，你不给我就是你的锅~  </li>
+<li>http2的设计理念是这样的，反正我觉得你需要，我推了，接不着你背锅~</li>
+<li>两者截然相反，但是目的却惊人的一致，就是甩锅啊~</li>
+<li>对立即是统一，矛盾才能发展，发展才有变化，变化才是最稳定的动态平衡~</li>
+<li>阴阳之道，相生相克，HTTP的设计哲学，我服~</li>
+<li>别人喜欢你的往往不是喜欢你本身，而是喜欢你有能力跟他撕逼的价值¯\<em>(ツ)</em>/¯</li>
+</ol>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">技术吐糟</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2020/03/19/HTTP%E7%9A%84%E8%AE%BE%E8%AE%A1%E5%93%B2%E5%AD%A6/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-释清语·止水" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/03/02/%E9%87%8A%E6%B8%85%E8%AF%AD%C2%B7%E6%AD%A2%E6%B0%B4/">释清语·止水</a>
+    </h1>
+  
+
+        
+        <a href="/2020/03/02/%E9%87%8A%E6%B8%85%E8%AF%AD%C2%B7%E6%AD%A2%E6%B0%B4/" class="archive-article-date">
+  	<time datetime="2020-03-02T12:43:24.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-03-02</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="释清语·止水"><a href="#释清语·止水" class="headerlink" title="释清语·止水"></a>释清语·止水</h2><p>拾起新仇旧恨，话如脏水泼。<br>昨夜同欢共乐，今朝咱俩两说。<br>虚情能解假意，何必疾书烟波。</p>
+<p>不辩胜于常辩，立于非难所。<br>清者未必真清，浊者岂有独浊。<br>逸才可敛天破，壮士安能苟活。</p>
+<p>拔地扬衫总从容，胸中当响九歌。<br>凌云莫，伤心锁。<br>枭语尽吐风魔，只身难断善恶。<br>喝喝呵。</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">生不如诗</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2020/03/02/%E9%87%8A%E6%B8%85%E8%AF%AD%C2%B7%E6%AD%A2%E6%B0%B4/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-二月二，新征程" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -172,8 +409,10 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h2><p>如果你能看到本页，你将是非常幸运的存在~~ =。=</p>
-
+        <h2 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h2><blockquote>
+<p>如果你能看到本页，你将是非常幸运的存在~~ =。=</p>
+</blockquote>
+<h4 id="Have-a-wonderful-day"><a href="#Have-a-wonderful-day" class="headerlink" title="Have a wonderful day!"></a>Have a wonderful day!</h4><h4 id="Peace"><a href="#Peace" class="headerlink" title="Peace"></a>Peace</h4>
       
 
       
@@ -181,6 +420,17 @@
     <div class="article-info article-info-index">
       
       
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">繁星春水</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
       
 
       
@@ -225,7 +475,7 @@
   <div class="outer">
     <div id="footer-info">
     	<div class="footer-left">
-    		&copy; 2020 Penrose
+    		&copy; 2022 Penrose
     	</div>
       	<div class="footer-right">
       		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
@@ -306,6 +556,18 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">技术吐糟</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">繁星春水</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">生不如诗</a>
+              </li>
             
             <div class="clearfix"></div>
           </ul>
@@ -387,7 +649,7 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
     
     	<section class="tools-section tools-section-me" q-show="aboutme">
   	  	
-  	  		<div class="aboutme-wrap" id="js-aboutme">很惭愧&lt;br&gt;&lt;br&gt;只做了一点微小的工作&lt;br&gt;谢谢大家</div>
+  	  		<div class="aboutme-wrap" id="js-aboutme">十八线小前端一枚</div>
   	  	
     	</section>
     
